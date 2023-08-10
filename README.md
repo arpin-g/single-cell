@@ -1,2 +1,2 @@
 # bioinformatics
-sc-rnaseq skin
+scRNA-seq skin
