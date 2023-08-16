@@ -98,23 +98,23 @@ interest <- c("cell development",
               "MEBARKI_HCC_PROGENITOR_WNT_UP_CTNNB1_DEPENDENT",
               "MEBARKI_HCC_PROGENITOR_WNT_DN_CTNNB1_DEPENDENT",
               "MEBARKI_HCC_PROGENITOR_WNT_UP_CTNNB1_INDEPENDENT",
-              " MEBARKI_HCC_PROGENITOR_WNT_DN_CTNNB1_INDEPENDENT",
+              "MEBARKI_HCC_PROGENITOR_WNT_DN_CTNNB1_INDEPENDENT",
               "MEBARKI_HCC_PROGENITOR_WNT_UP_BLOCKED_BY_FZD8CRD",
               "MEBARKI_HCC_PROGENITOR_WNT_DN_BLOCKED_BY_FZD8CRD",
               "NABA_COLLAGENS",
               "REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX",
-              " REACTOME_COLLAGEN_FORMATION",
+              "REACTOME_COLLAGEN_FORMATION",
               "REACTOME_DOWNREGULATION_OF_TGF_BETA_RECEPTOR_SIGNALING",
-              " BIOCARTA_TGFB_PATHWAY",
+              "BIOCARTA_TGFB_PATHWAY",
               "KEGG_WNT_SIGNALING_PATHWAY",
-              " KEGG_HEDGEHOG_SIGNALING_PATHWAY",
-              " KEGG_TGF_BETA_SIGNALING_PATHWAY",
+              "KEGG_HEDGEHOG_SIGNALING_PATHWAY",
+              "KEGG_TGF_BETA_SIGNALING_PATHWAY",
               "KEGG_VEGF_SIGNALING_PATHWAY",
-              " PID_PDGFRB_PATHWAY",
-              " PID_PDGFRA_PATHWAY",
-              " PID_SMAD2_3PATHWAY",
+              "PID_PDGFRB_PATHWAY",
+              "PID_PDGFRA_PATHWAY",
+              "PID_SMAD2_3PATHWAY",
               "WP_TGFBETA_SIGNALING_PATHWAY",
-              " WP_IL6_SIGNALING_PATHWAY")
+              "WP_IL6_SIGNALING_PATHWAY")
 
 env$gs.def.list <- env$gs.def.list[names(env$gs.def.list) %in% interest]
 
@@ -125,4 +125,3 @@ pipeline.genesetOverviews(env)
 
 pipeline.summarySheetsSamples(env)
 pipeline.summarySheetsModules(env)
-print("Finished")
